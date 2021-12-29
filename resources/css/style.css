@@ -6,7 +6,8 @@
 
 html {
     font-size: 16px;
-    background-color: hsl(106, 34%, 65%);
+    color: rgb(8, 34, 19);
+    background-color: hsl(106, 34%, 75%);
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
@@ -36,7 +37,6 @@ html {
 /* Navigation */
 
 nav {
-    background-color:  hsl(106, 34%, 75%);
     padding: .5rem;
 }
 
@@ -48,15 +48,15 @@ nav ul {
 
 nav ul li {
     list-style: none;
+    background-color: hsl(145, 62%, 15%);
     padding: 1rem;
     min-width: 5em;
     border-radius: 1em;
-    border: 2px hsl(106, 34%, 35%) solid;
     text-align: center;
 }
 
 nav ul li a {
-    color: hsl(106, 34%, 35%);
+    color: white;
     font-weight: bold;
     text-decoration: none;
 }
@@ -64,7 +64,7 @@ nav ul li a {
 /* Sections */
 
 .content {
-    border: 1px hsl(106, 34%, 75%) dotted;
+    background-color: white;
 }
 
 
