@@ -11,6 +11,26 @@ html {
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media only screen and (max-width: 480px) {
+    html {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 815px) and (min-width: 480px) {
+    html {
+        font-size: 14px;
+    }
+}
+
+
+
 /* Banner */
 
 #banner {
@@ -28,7 +48,7 @@ html {
 #banner h1 {
     text-align: center;
     font-size: 5rem;
-    color: rgba(255, 255, 255, 1);
+    color: hsl(0, 0%, 100%);
     background-color: rgba(0, 0, 0, 0.3);
     width: 100%;
     margin-bottom: -5rem;
@@ -48,9 +68,9 @@ nav ul {
 
 nav ul li {
     list-style: none;
-    background-color: hsl(145, 62%, 15%);
+    background-color: #A1701F;
     padding: 1rem;
-    min-width: 5em;
+    min-width: 4em;
     border-radius: 1em;
     text-align: center;
 }
@@ -61,10 +81,66 @@ nav ul li a {
     text-decoration: none;
 }
 
+@media only screen and (max-width: 480px) {
+    nav ul {
+        justify-content: center;
+    }
+
+    nav ul li {
+        border-radius: 0%;
+        padding: .4rem;
+        border-right: 1px solid #0f3e22;
+    }    
+}
 /* Sections */
 
 .content {
     background-color: white;
+    width: 70%;
+    padding: 2rem;
+    border-radius: 1em;
+    margin-bottom: 2rem;
+}
+
+.content p {
+    margin-bottom: 1.5em;
+}
+
+.content h2 {
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+/* Walk Schedule */
+
+#walks {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.walk-column {
+    text-align: center;
+}
+
+/* Gallery */
+
+#gallery {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.img-container {
+    flex: 25%;
+    max-width: 50%;
+    padding: 0 .5em;
+}
+
+.img-container img {
+    margin-top: .5em;
+    vertical-align: middle;
+    width: 100%;
 }
 
 
@@ -72,5 +148,31 @@ nav ul li a {
 
 #signup {
     display: flex;
-    background-image: url(../x-PK65bPGTUIE-unsplash.jpg);
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#signup-btn,
+nav ul li #signup-btn {
+    background-color: #0f3e22;
+    color: white;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: hsl(106, 34%, 75%);
+    padding: 1em;
+    border-radius: 1em;
+    font-size: 1rem;
+}
+
+form input,
+form label,
+form button {
+    font-size: 1rem;
+    padding: 2px;  
+    margin: .2em
 }
