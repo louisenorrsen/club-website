@@ -68,7 +68,7 @@ nav ul {
 
 nav ul li {
     list-style: none;
-    background-color: #A1701F;
+    background-color: #6D4A12;
     padding: 1rem;
     min-width: 4em;
     border-radius: 1em;
@@ -153,8 +153,8 @@ nav ul li a {
     justify-content: center;
 }
 
-#signup-btn,
-nav ul li #signup-btn {
+.signup-btn,
+nav ul li .signup-btn {
     background-color: #0f3e22;
     color: white;
 }
