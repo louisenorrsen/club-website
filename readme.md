@@ -1,10 +1,6 @@
-# Club Website #
-
-My dream is to become a developer. To reach this goal I created a account on [Codecademy] (https://www.codecademy.com/learn)
-
 # Club Website - Dog Walk EasterBay
 
-My dream is to become a developer. To reach this goal I created a account on [Codecademy](https://www.codecademy.com/learn).\
+My dream is to become a developer. To achieve this goal, I created an account at [Codecademy](https://www.codecademy.com/learn).\
 This project is a part of my journey towards my new career and I'm learning so much about coding.
 
 To make this Club Website I had to challenge myself and really practice on coding flexbox and\
